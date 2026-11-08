@@ -1,7 +1,7 @@
 {
   "name": "ip-range-checker",
-  "version": "0.1.1",
-  "description": "support togtokh",
+  "version": "0.1.2",
+  "description": "Check whether an IPv4 or IPv6 address matches one or more IPs or CIDR ranges.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -30,7 +30,6 @@
   },
   "homepage": "https://github.com/togtokh-dev/ip-range-checker#readme",
   "dependencies": {
-    "crypto": "^1.0.1",
     "ipaddr.js": "^2.2.0",
     "typescript": "^5.0.4"
   },
